@@ -1,0 +1,2 @@
+Download "MySQL Connector/J" (Platform Independent, ZIP) from https://dev.mysql.com/downloads/connector/j/
+Extract it, then copy the file mysql-connector-j-x.x.x.jar into this lib folder.

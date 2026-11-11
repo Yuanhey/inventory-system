@@ -1,0 +1,19 @@
+# 1. Copy this file and name the copy:  config.properties
+# 2. Keep ONLY ONE db.url / db.user / db.password set (delete or comment out the others)
+# 3. Never upload config.properties to GitHub (it is already in .gitignore)
+
+# ---------- Option A: Aiven for MySQL ----------
+# Host and port come from the Aiven console (the port is NOT 3306)
+db.url=jdbc:mysql://YOUR-HOST.aivencloud.com:YOUR-PORT/defaultdb?sslMode=REQUIRED
+db.user=avnadmin
+db.password=YOUR-PASSWORD
+
+# ---------- Option B: TiDB Cloud Starter ----------
+#db.url=jdbc:mysql://YOUR-HOST.tidbcloud.com:4000/test?sslMode=VERIFY_IDENTITY
+#db.user=YOUR-PREFIX.root
+#db.password=YOUR-PASSWORD
+
+# ---------- Option C: your old local XAMPP database ----------
+#db.url=jdbc:mysql://localhost:3306/inventory_db
+#db.user=root
+#db.password=
